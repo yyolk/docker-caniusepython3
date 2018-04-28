@@ -16,14 +16,14 @@ Command-line/Web Usage
 
 Add this to your `~/.aliases`:
 
-    alias dcaniusepython3='docker run --rm -v $(pwd):/workspace:ro -w /workspace -t yyolk/caniusepython3'
+    alias dcaniusepython3='docker run --rm -v $(pwd):/ws:ro  -t yyolk/caniusepython3'
 
 Then you can use `dcaniusepython3` as normal:
 
 You can specify your dependencies in multiple ways:
 
     #a novel alias
-    alias dcaniusepython3='docker run --rm -v $(pwd):/workspace:ro -w /workspace -t yyolk/caniusepython3'
+    alias dcaniusepython3='docker run --rm -v $(pwd):/ws:ro  -t yyolk/caniusepython3'
     dcaniusepython3 -r requirements.txt test-requirement.txt
     dcaniusepython3 -m PKG-INFO
     dcaniusepython3 -p numpy scipy ipython
