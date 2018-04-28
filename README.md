@@ -4,6 +4,7 @@ Utilizes [caniusepython3](https://pypi.org/project/caniusepython3/)
 
 When you want to know before [py3readiness](http://py3readiness.org) is updated.
 
+
 Can I Use Python 3?
 ===================
 
@@ -12,6 +13,12 @@ of them are holding you up from porting to Python 3.
 
 Command-line/Web Usage
 ----------------------
+
+Add this to your `~/.aliases`:
+
+    alias dcaniusepython3='docker run --rm -v $(pwd):/workspace:ro -w /workspace -t yyolk/caniusepython3'
+
+Then you can use `dcaniusepython3` as normal:
 
 You can specify your dependencies in multiple ways:
 
