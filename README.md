@@ -5,6 +5,14 @@ Utilizes brettcannon's [caniusepython3](https://github.com/brettcannon/caniusepy
 When you want to know before [py3readiness](http://py3readiness.org) is updated.
 
 
+# DockerHub `yyolk/caniusepython3`
+
+Available on docker hub: 
+
+    docker pull yyolk/caniusepython3
+
+
+
 Can I Use Python 3?
 ===================
 
