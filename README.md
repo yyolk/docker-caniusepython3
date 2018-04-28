@@ -1,6 +1,6 @@
 # docker-caniusepython3
 
-Utilizes [caniusepython3](https://pypi.org/project/caniusepython3/)
+Utilizes brettcannon's [caniusepython3](https://github.com/brettcannon/caniusepython3) ( [pypi page](https://pypi.org/project/caniusepython3/) )
 
 When you want to know before [py3readiness](http://py3readiness.org) is updated.
 
