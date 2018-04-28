@@ -2,4 +2,4 @@
 
 Utilizes [caniusepython3](https://pypi.org/project/caniusepython3/)
 
-When you want to know before [py3readiness.org]() is updated.
+When you want to know before [py3readiness](http://py3readiness.org) is updated.
